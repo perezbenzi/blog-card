@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background: linear-gradient(to bottom right, #f8fafc, #d3d7dd);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 7px 0px;
+  width: 340px;
+  background-color: #ffff;
+  margin-top: 120px;
+}
+
+.image {
+  position: relative;
+  width: 340px;
+  height: 288px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.text {
+  font-size: 16px;
+  color: #525252;
+}
+
+.pill {
+  display: inline-block;
+  padding: 3px 8px;
+  background-color: #f1fdf5; /* Color de fondo */
+  border-radius: 20px; /* Hace el contenedor con bordes redondeados */
+  white-space: nowrap; /* Evita que el texto se desborde en múltiples líneas */
+  overflow: hidden; /* Oculta cualquier desbordamiento de texto */
+  text-overflow: ellipsis; /* Agrega "..." si el texto es muy largo */
+  border: solid 1px #11e45b;
+  height: 24px;
+  width: 67px;
+}
+
+.pill p {
+  margin: 0;
+  font-size: 14px; /* Puedes ajustar el tamaño de la fuente si es necesario */
+  line-height: 1; /* Ajusta el line-height para reducir el espacio vertical */
+  color: #008237;
+}
+
+.info {
+  padding: 16px;
+}
+
+.button {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #2a2e8d;
+  padding: 0;
+  font-size: 16px;
+  margin-bottom: -5px;
+}
